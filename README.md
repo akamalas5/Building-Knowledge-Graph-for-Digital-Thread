@@ -1,5 +1,11 @@
 # Capstone
 
+The knowledge base associated with each of the life cycles of the product data,  in manufacturing companies are built over many years and have all the characteristics of big data. The typical product life cycle includes market research, concepts creation, product attributes/configurations, product specification to satisfy functional and regulatory/compliance requirements, product design engineering methodologies, Manufacturing, Product warranty support and product in service.
+Given the diversity of the People/process/data elements, the data remains in silos with fragile connectivity across the phases which adds complexity, re-work, data duplications, mis representations. These issues can be addressed if the data is harmonized across the product life cycle to enable taxonomy for product data with ontology to identify concepts and their relationships.  Such a representation will aid in establishing the digital connection between the data sources across the life cylce of product with traceability and connections. 
+This work deals with the building of knowledge graph from the data across the product lifecycle for the automotive product lifecycle phases. For this study given the high number of parts, a representative sub system is taken up to prove the concept.  The brake substem related product data is considered for this study. For the Brake sub system data the  Wikipedia corpus as well as internal company data have  been used for the costructio of knowledge graphs.    
+
+
+
 # Model Requirements and Installation
 
 # Process Steps 
