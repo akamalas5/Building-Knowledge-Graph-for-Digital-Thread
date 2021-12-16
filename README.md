@@ -1,9 +1,8 @@
 # Knowledge Graph - Connectig the dots and Establishing digital thread between Product life cycle Phases
 
-The knowledge base associated with each of the life cycles of the product data,  in manufacturing companies are built over many years and have all the characteristics of big data. The typical product life cycle includes market research, concepts creation, product attributes/configurations, product specification to satisfy functional and regulatory/compliance requirements, product design engineering methodologies, Manufacturing, Product warranty support and product in service.
+The knowledge base associated with each of the life cycles of the product data as it evolves from concepts to final product in use (functional/compliance requirements,  digital disign, digital simulation, manufacturing and in use/serivice) needs to be seamlessly connected digitally so that data remains as single source of truth and are consumed by downstream/upstream phases in context without duplicating or distorting. However this is not the case becuase the  manufacturing companies have legacy of many years and started adopting to newer systems as they evolve. The typical product life cycle includes market research, concepts creation, product attributes/configurations, product specification to satisfy functional and regulatory/compliance requirements, product design engineering methodologies, Manufacturing, Product warranty support and product in service. The data associated witht these are huge, diverse and fast growing and have all charectersitcs of big data and associated  challenges in processing and generating insights.
 Given the diversity of the People/process/data elements, the data remains in silos with fragile connectivity across the phases which adds complexity, re-work, data duplications, mis representations. These issues can be addressed if the data is harmonized across the product life cycle to enable taxonomy for product data with ontology to identify concepts and their relationships.  Such a representation will aid in establishing the digital connection between the data sources across the life cylce of product with traceability and connections. 
 This work deals with the building of knowledge graph from the data across the product lifecycle for the automotive product lifecycle phases. For this study given the high number of parts, a representative sub system is taken up to prove the concept.  The brake substem related product data is considered for this study. For the Brake sub system data the  Wikipedia corpus as well as internal company data have  been used for the costructio of knowledge graphs.    
-
 
 
 # Model Requirements and Installation
@@ -54,11 +53,8 @@ nltk>=3.6.4
 dataframe
 
         Scitpt - navigating_wiki_categories.ipynb 
-        
         Input file – None
-
         Output file - Capstone/data/wiki_brake_all_pages.csv
-
 
 2. Resoolve the coreferneces using neural coref 
 
