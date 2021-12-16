@@ -8,6 +8,15 @@ This work deals with the building of knowledge graph from the data across the pr
 
 # Model Requirements and Installation
 
+1. Coreference resolution-- Neuralcoref
+
+The hugging face neural coreference resolution model is used of resolving the coreference. This model takes work embeddings for several words inside and around each mention and features of the mentions like length, location of the mentions which results in a features representation of each mention and it’s surrounding.  This is passed on to the set of neural net to obtain score of each par of mention and possible antecedent. The second neural net gives a score of a mention having no antecedent (possibly the reference to an entity in a text). The model then compares all these scores together and the highest scores to determine where a mention has an antecedent and which one should be.
+The text data is divided into sentences and sentences are processed for the resolution of coreferences. This is helpful to extract the information specific to each of the sentences. 
+
+
+
+
+
 # Process Steps 
 
 1. Extraction of brake literature from the Wikipedia, cleaning up of the text, resolve coreferences and split paragarmes in the sentenses and generate a 
