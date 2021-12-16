@@ -12,13 +12,40 @@ This work deals with the building of knowledge graph from the data across the pr
 
 The hugging face neural coreference resolution model is used of resolving the coreference. This model takes work embeddings for several words inside and around each mention and features of the mentions like length, location of the mentions which results in a features representation of each mention and it’s surrounding.  This is passed on to the set of neural net to obtain score of each par of mention and possible antecedent. The second neural net gives a score of a mention having no antecedent (possibly the reference to an entity in a text). The model then compares all these scores together and the highest scores to determine where a mention has an antecedent and which one should be.
 The text data is divided into sentences and sentences are processed for the resolution of coreferences. This is helpful to extract the information specific to each of the sentences. 
+https://github.com/huggingface/neuralcoref
+
+Requirements.txt
+spacy>=2.1.0,<3.0.0
+cython>=0.25
+pytest
+
 For the coreference resolution our model uses neuralcoref which works only with python3.7
         1. !apt-get install python3.7
         2. !pip install spacy==2.1.0
         3. !pip install neuralcoref
         4. !pip install https://github.com/explosion/spacy-models/releases//download/en_core_web_lg-2.1.0/en_core_web_lg-2.1.0.tar.gz
 
+2. Term Extraction 
 
+The coreference resolved documents are processed for the named entity recognition and extraction of entities.  The document annotation is the NLP technique for recognizing the parts of speech, or part of text into machine readable / Processable elements.  Our data source is coming from Wikipedia so we used Wikifier API’s to annotate the entities. 
+includeCosines: should be true or false, determines whether to include, for each annotation, the cosine similarity between the input document and the Wikipedia page corresponding to that annotation. Currently the cosine similarities are provided for informational purposes only and are not used in choosing the annotations. Thus, you should set this to false to conserve some CPU time
+
+3. OpenNRE model for Entity link prediction
+
+Entity Relationship Extraction - Relationship Labeling for Training the pre-trained OpenNRE BERT Model
+For the term pairs extracted, the relationships are extracted using the following OpenNRE models which are trained using the wikipedia corpus
+wiki80_bert_softmax
+wiki80_bertentity_softmax
+The extracted relationships are analyses. The analysis data to be updated here. - Number of terms for each of the threshold value, number of terms considered logic
+https://github.com/thunlp/OpenNRE
+
+Requirements.txt
+torch==1.6.0
+transformers==3.4.0
+pytest==5.3.2
+scikit-learn==0.22.1
+scipy==1.4.1
+nltk>=3.6.4
 
 
 # Process Steps 
