@@ -12,7 +12,11 @@ This work deals with the building of knowledge graph from the data across the pr
 
 The hugging face neural coreference resolution model is used of resolving the coreference. This model takes work embeddings for several words inside and around each mention and features of the mentions like length, location of the mentions which results in a features representation of each mention and it’s surrounding.  This is passed on to the set of neural net to obtain score of each par of mention and possible antecedent. The second neural net gives a score of a mention having no antecedent (possibly the reference to an entity in a text). The model then compares all these scores together and the highest scores to determine where a mention has an antecedent and which one should be.
 The text data is divided into sentences and sentences are processed for the resolution of coreferences. This is helpful to extract the information specific to each of the sentences. 
-
+For the coreference resolution our model uses neuralcoref which works only with python3.7
+        1. !apt-get install python3.7
+        2. !pip install spacy==2.1.0
+        3. !pip install neuralcoref
+        4. !pip install https://github.com/explosion/spacy-models/releases//download/en_core_web_lg-2.1.0/en_core_web_lg-2.1.0.tar.gz
 
 
 
