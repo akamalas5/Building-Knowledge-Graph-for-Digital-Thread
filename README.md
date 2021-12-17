@@ -27,16 +27,20 @@ For the coreference resolution our model uses neuralcoref which works only with 
 
 2. Term Extraction 
 
-        The coreference resolved documents are processed for the named entity recognition and extraction of entities.  The document annotation is the NLP technique for recognizing the parts of speech, or part of text into machine readable / Processable elements.  Our data source is coming from Wikipedia so we used wikifier API’s to annotate the entities. 
+        The coreference resolved documents are processed for the named entity recognition and extraction of entities.  The document annotation is the NLP technique for recognizing the parts of speech, or part of text into machine readable / Processable elements.  Our data source is coming from Wikipedia so we used wikifier API’s to annotate the entities.
  
+ http://wikifier.org/
+ http://wikifier.org/info.html
+        
 
 3. OpenNRE model for Entity link prediction
 
-Entity Relationship Extraction - Relationship Labeling for Training the pre-trained OpenNRE BERT Model
-For the term pairs extracted, the relationships are extracted using the following OpenNRE models which are trained using the wikipedia corpus
+        Entity Relationship Extraction - Relationship Labeling for Training the pre-trained OpenNRE BERT Model
+For the term pairs extracted, the relationships are extracted using the following OpenNRE models which are trained using the Wikipedia corpus
 wiki80_bert_softmax
 wiki80_bertentity_softmax
 The extracted relationships are analyses. The analysis data to be updated here. - Number of terms for each of the threshold value, number of terms considered logic
+
 https://github.com/thunlp/OpenNRE
 
 Requirements.txt
