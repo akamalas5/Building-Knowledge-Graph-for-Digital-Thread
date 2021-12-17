@@ -90,7 +90,9 @@ dataframe
 
         Scitpt -  term_extraction_threshold_determination.ipynb          
         Input file – Capstone/data/wiki_brake_all_pages_with_coref_df.csv
+                    - Capstone/data/wiki_entities_baseline.csv
         Output file - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv
+                     - /Capstone/data/wiki_entities_baseline_threshold_terms.csv
 
 4.  a. Training Data – From the entities extracted with paired up, terms, get the random sample of 10K files are extracted and are manually mapped with the relationships.  The relationships extracted with wikifier trained openNRE model relations ships are not giving meaningful relationships thought they establish the relationships.
     b. The traned Model is used for predicting the relatioship for the term pairs generated in the above steop   	
