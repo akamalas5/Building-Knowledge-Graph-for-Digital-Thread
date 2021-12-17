@@ -13,16 +13,27 @@ The hugging face neural coreference resolution model is used of resolving the co
 The text data is divided into sentences and sentences are processed for the resolution of coreferences. This is helpful to extract the information specific to each of the sentences.
  
    https://github.com/huggingface/neuralcoref
+   
+   https://spacy.io/universe/project/neuralcoref
 
-Requirements.txt
-spacy>=2.1.0,<3.0.0
-cython>=0.25
-pytest
+ Requirements.txt For Neuralcoref
 
-For the coreference resolution our model uses neuralcoref which works only with python3.7
+        1. spacy>=2.1.0,<3.0.0
+        
+        2. cython>=0.25
+        
+        3.  pytest
+        
+        4. neuralcoref
+
+For the coreference resolution our model uses neuralcoref which works only with python3.7.
+        
         1. !apt-get install python3.7
+        
         2. !pip install spacy==2.1.0
+        
         3. !pip install neuralcoref
+        
         4. !pip install https://github.com/explosion/spacy-models/releases//download/en_core_web_lg-2.1.0/en_core_web_lg-2.1.0.tar.gz
 
 2. Term Extraction 
@@ -30,6 +41,7 @@ For the coreference resolution our model uses neuralcoref which works only with 
 The coreference resolved documents are processed for the named entity recognition and extraction of entities.  The document annotation is the NLP technique for recognizing the parts of speech, or part of text into machine readable / Processable elements.  Our data source is coming from Wikipedia so we used wikifier API’s to annotate the entities.
  
   http://wikifier.org/
+  
   http://wikifier.org/info.html
         
 
@@ -43,14 +55,19 @@ The extracted relationships are analyses. The analysis data to be updated here. 
 
  https://github.com/thunlp/OpenNRE
 
-Requirements.txt
-torch==1.6.0
-transformers==3.4.0
-pytest==5.3.2
-scikit-learn==0.22.1
-scipy==1.4.1
-nltk>=3.6.4
+ Requirements.txt For openNRE
 
+        1. torch==1.6.0
+        
+        2. transformers==3.4.0
+        
+        3. pytest==5.3.2
+        
+        4. scikit-learn==0.22.1
+        
+        5. scipy==1.4.1
+        
+        6. nltk>=3.6.4
 
 # Process Steps 
 
