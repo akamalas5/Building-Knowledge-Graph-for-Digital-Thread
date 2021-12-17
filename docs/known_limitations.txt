@@ -1,0 +1,3 @@
+Known Limitations:
+1. Our KG at this point of time doesn't have an Ontology mapping
+2. The RE model prediction performance accuracy is 89%
