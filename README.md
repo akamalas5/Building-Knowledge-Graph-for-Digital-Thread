@@ -103,6 +103,13 @@ dataframe
         Output file - 
                 a. /Capstone/data/finalized_model.pkl
                 b. /Capstone/data/with_train_test_mapping_data_req_text_0.8_results.csv
+                
+                The terms extracted with other threshold values which are used for evaluation of threhold value
+                
+                c. /Capstone/data/with_train_test_mapping_data_req_text_0.6_results.csv
+                d. /Capstone/data/with_train_test_mapping_data_req_text_0.7_results.csv
+                e. /Capstone/data/with_train_test_mapping_data_req_text_0.9_results.csv
+                f. /Capstone/data/with_train_test_mapping_data_req_text_1.0_results.csv
 
 4. Network Gneration
 
