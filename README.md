@@ -92,7 +92,15 @@ dataframe
         Input file – Capstone/data/wiki_brake_all_pages_with_coref_df.csv
                     - Capstone/data/wiki_entities_baseline.csv
         Output file - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv
-                     - /Capstone/data/wiki_entities_baseline_threshold_terms.csv
+                       
+                       The terms extracted with other threshold values which are used for evaluation of threshold value
+
+                     -  Capstone/data/wiki_entities_baseline_threshold_terms.csv
+                     -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.6.csv
+                     -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.7.csv
+                     -  Capstone/data/termsdec_07_mapping_data_wiki_text_0.8.csv
+                     -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.9.csv
+                      - Capstone/data/termsdec_12_mapping_data_wiki_text_1.0.csv
 
 4.  a. Training Data – From the entities extracted with paired up, terms, get the random sample of 10K files are extracted and are manually mapped with the relationships.  The relationships extracted with wikifier trained openNRE model relations ships are not giving meaningful relationships thought they establish the relationships.
     b. The traned Model is used for predicting the relatioship for the term pairs generated in the above steop   	
@@ -104,14 +112,8 @@ dataframe
                 a. /Capstone/data/finalized_model.pkl
                 b. /Capstone/data/with_train_test_mapping_data_req_text_0.8_results.csv
                 
-                The terms extracted with other threshold values which are used for evaluation of threhold value
                 
-                c. /Capstone/data/with_train_test_mapping_data_req_text_0.6_results.csv
-                d. /Capstone/data/with_train_test_mapping_data_req_text_0.7_results.csv
-                e. /Capstone/data/with_train_test_mapping_data_req_text_0.9_results.csv
-                f. /Capstone/data/with_train_test_mapping_data_req_text_1.0_results.csv
-
-4. Network Gneration
+4. Network Generation
 
         Scitpt -  term_extraction_threshold_determination.ipynb          
         Input file – Capstone/data/wiki_brake_all_pages_with_coref_df.csv
