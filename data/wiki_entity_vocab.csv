@@ -1,0 +1,958 @@
+entity,type
+"1,1,1-Trichloroethane",part
+AC motor,type
+AMC Amitron,product
+Abrasion (mechanical),part
+Acceleration,parameter
+Accelerometer,part
+Accumulator (computing),part
+Acetone,material
+Actuator,part
+Adaptive cruise control,type
+Addendum,part
+Adenosine triphosphate,part
+Adhesion,parameter
+Adhesion railway,product
+Adjustment handle,part
+Advanced Passenger Train,type
+Air brake (aeronautics),type
+Air brake (road vehicle),type
+Air compressor,parameter
+Air compressor,part
+Air compressor,system
+Air conditioning,part
+Air conditioning,type
+Air cooling,type
+Air pump,part
+Air pump,system
+Aircraft,product
+Aircraft pilot,product
+Airplane,product
+Alarm clock,part
+Alcohol (drug),material
+Alcohol (drug),part
+Alfa Romeo Alfasud,product
+All-wheel drive,type
+Alloy,material
+Alloy wheel,part
+Alnico,material
+Alternating current,part
+Alternative rock,part
+Alternator,part
+Aluminium,material
+Aluminium,part
+American Motors Corporation,ORG
+Amfleet,product
+Angle,parameter
+Angle,part
+Angular frequency,parameter
+Angular momentum,parameter
+Angular velocity,parameter
+Anti-lock braking system,system
+Anvil,type
+Application software,part
+Area,parameter
+Armature (electrical),part
+Articulated vehicle,product
+Asbestos,material
+Asbestos,part
+Asphalt,part
+Atmosphere,part
+Atmosphere of Earth,part
+Atmospheric pressure,parameter
+Audi,product
+Ausco Lambert disc brake,type
+Australia,GPE
+Automatic transmission,part
+Automatic transmission,type
+Automation,part
+Automaton,part
+Automotive Products,product
+Automotive industry,product
+Aviation,product
+Axle,part
+Axle,system
+BHP,type
+BMW,product
+Back pressure,parameter
+Backlash (engineering),parameter
+Bail,part
+Ball valve,type
+Band brake,type
+Bar (establishment),part
+Battery electric vehicle,product
+Beam axle,type
+Beam engine,type
+Bearing (mechanical),part
+Bearing surface,type
+Beaufort scale,parameter
+Bell,part
+Belt (mechanical),part
+Bendix Corporation,ORG
+Bicycle,product
+Bicycle and motorcycle dynamics,parameter
+Bicycle brake,type
+Bicycle chain,part
+Bicycle fork,part
+Bicycle frame,part
+Bicycle handlebar,part
+Bicycle handlebar,type
+Bicycle pedal,part
+Bicycle wheel,part
+Bifilar coil,product
+Big Four (British railway companies),product
+Binder (material),material
+Boat,product
+Boat trailer,type
+Bogie,product
+Boiler,product
+Boiler blowdown,product
+Boiling point,parameter
+Bombardier Electrostar,product
+Bombardier Transportation,product
+Boundary layer,part
+Bowden cable,part
+Braid,part
+Brake,system
+Brake bleeding,part
+Brake cleaner,part
+Brake fade,part
+Brake fluid,type
+Brake force,parameter
+Brake lining,part
+Brake pad,part
+Brake run,part
+Brake shoe,part
+Brake shoe,type
+Brake van,part
+Brake-by-wire,part
+Brake-by-wire,product
+Braking distance,parameter
+Brands Hatch,parameter
+Brass,material
+Brass,part
+British Aircraft Corporation,ORG
+British Rail,product
+British Westinghouse,product
+Budd Company,ORG
+Burnout (vehicle),parameter
+Bus,product
+Bus (computing),part
+Butterfly valve,type
+CBS,part
+CV/gate,part
+Cable television,part
+Calipers,part
+Cam,part
+Camshaft,part
+Canadian Pacific Railway,product
+Cantilever,part
+Car,product
+Car controls,system
+Car suspension,system
+Carbon,material
+Carbon fibers,part
+Carbon-fiber-reinforced polymers,part
+Cargo,product
+Carl Benz,product
+Carousel,product
+Carriage,product
+Cashew,part
+Cast iron,material
+Cast iron,part
+Casting (metalworking),material
+Cement,material
+Cementite,material
+Center of mass,parameter
+Central heating,parameter
+Ceramic,material
+Ceramic,part
+Ceramic glaze,part
+Ceramic matrix composite,material
+Chassis,part
+Chassis Brakes International,type
+Check valve,type
+Chemical bond,material
+Chemical element,material
+Chemical property,parameter
+Chicken,part
+Chimney,part
+Chlorine,material
+Chrysler,type
+Chrysler Imperial,type
+Chrysler Town & Country (1941–1988),type
+Chrysotile,material
+Citroën,other
+Citroën XM,other
+Citroën Xantia,other
+Cleaning agent,part
+Cleanroom,product
+Cloaca,parameter
+Clogging,part
+Closed-circuit television,part
+Clutch,part
+Coal,material
+Coal mining,part
+Collision avoidance system,type
+Combined braking system,part
+Commercial vehicle,product
+Communication channel,part
+Composite material,material
+Composite material,part
+Compressed air,part
+Compressed air dryer,part
+Compressibility,parameter
+Compression release,part
+Compression release engine brake,type
+Compressor,system
+Computer,product
+Computer hardware,part
+Concept car,product
+Concorde,product
+Concrete,part
+Connecting rod,part
+Contact patch,parameter
+Contamination,parameter
+Continental AG,product
+Continuously variable transmission,type
+Control car,product
+Control line,part
+Control system,part
+Control system,type
+Control valve,type
+Copper,material
+Cordless,type
+Cork (material),material
+Cork (material),part
+Cornering force,parameter
+Corrosion,part
+Corrosion inhibitor,material
+Cotton,material
+Counter-pressure brake,parameter
+Counterweight brake,type
+Cowl,material
+Crane (machine),product
+Crankset,part
+Crankshaft,part
+Crescent,part
+Cruise control,part
+Cryogenics,material
+Cummins,product
+Curve,parameter
+Cycling,product
+Cylinder (engine),part
+Daimler AG,product
+Daimler Company,ORG
+Data,part
+Davies and Metcalfe,product
+Decelostat,part
+Decelostat,type
+Deflection (engineering),parameter
+Deformation (engineering),parameter
+Delhi Metro,product
+Design,type
+Destroyer,product
+Detergent,parameter
+Detroit,type
+Detroit Diesel,product
+Deutsche Reichsbahn,part
+Diameter,type
+Dichloromethane,material
+Die casting,material
+Diesel engine,type
+Diesel fuel,part
+Diesel locomotive,product
+Diesel–electric transmission,type
+Diethyl ether,material
+Diethylene glycol,material
+Direct current,part
+Disability,part
+Disc brake,type
+Dissipation,parameter
+Dissipation,part
+Distance,parameter
+Dog clutch,type
+Double-decker bus,product
+Douglas (motorcycles),product
+Downhill bike,product
+Draft (hull),parameter
+Drag (physics),parameter
+Drive by wire,part
+Drive wheel,part
+Drivetrain,type
+Driving wheel,part
+Drogue parachute,part
+Drum,part
+Drum brake,type
+Drum kit,part
+Duesenberg,product
+Dunlop Rubber,part
+Dust,parameter
+Dust,part
+Dynamic braking,part
+Eddy current,type
+Eddy current brake,type
+Election Commission of Pakistan,type
+Electric car,product
+Electric charge,part
+Electric current,parameter
+Electric generator,part
+Electric locomotive,product
+Electric motor,system
+Electric multiple unit,type
+Electric vehicle,product
+Electrical grid,part
+Electrical network,part
+Electrical wiring,part
+Electricity,parameter
+Electricity meter,part
+Electro (music),type
+Electromagnet,part
+Electromagnetic brake,type
+Electromagnetic clutches and brakes,type
+Electromagnetic coil,part
+Electromagnetic induction,part
+Electromagnetism,part
+Electromagnetism,type
+Electronic brakeforce distribution,type
+Electronic music,type
+Electronic parking brake,type
+Electronic stability control,part
+Electronic throttle control,type
+Electronically controlled brake,type
+Electronically controlled pneumatic brakes,type
+Electronics,part
+Electronics,type
+Embodied energy,part
+Emergency,part
+Emergency brake (train),type
+Emergency brake assist,type
+Emery (rock),material
+Emery paper,part
+Empresas Públicas de Medellín,part
+Energy,parameter
+Engine,system
+Engine braking,part
+Engineer,type
+Engineered materials arrestor system,part
+Engineered materials arrestor system,type
+England and Wales Cricket Board,part
+Enthalpy,parameter
+Epoxy,material
+Ester,parameter
+Ethanol,material
+Ether,material
+Ethology,parameter
+Ethylene glycol,material
+Ethylene glycol,part
+European Union,part
+Evaporation,part
+Exclamation mark,part
+Exhaust brake,type
+Exhaust gas,part
+Exhaust system,part
+Exhibitionism,part
+Express train,type
+Extended play,part
+Extended play,type
+Facing colour,part
+Fail-safe,part
+Fail-safe,type
+Fault tolerance,parameter
+Ferromagnetism,part
+Ffestiniog Railway,part
+Fiber,material
+Fin,part
+Fire hose,part
+Fire-tube boiler,product
+Firearm,part
+Fixed-gear bicycle,product
+Fixed-gear bicycle,type
+Flange,part
+Flap (aeronautics),part
+Fluid,part
+Fluid bearing,type
+Fluid coupling,part
+Fluid dynamics,part
+Flux,material
+Flywheel,part
+Flywheel energy storage,part
+Force,parameter
+Force multiplication,parameter
+Ford Motor Company,ORG
+Ford Thunderbird,product
+Formula One,product
+Fortescue railway,product
+Forward (association football),part
+Four-stroke engine,type
+Four-wheel drive,product
+Fred Duesenberg,product
+Freewheel,part
+Freight bicycle,product
+Freight bicycle,type
+Frequency,parameter
+Fresh water,type
+Friction,parameter
+Friction modifier,part
+Friction torque,parameter
+Fuel economy in automobiles,parameter
+Function (mathematics),part
+Fusible plug,part
+G-force,parameter
+Gabriel Voisin,product
+Gas,material
+Gas,type
+Gasoline,material
+Gasoline,product
+Gear,part
+Gear oil,part
+Gear oil,product
+Gear train,type
+General Motors,type
+Glass,material
+Glossary of graph theory,part
+Glycol ethers,material
+Glycol ethers,part
+Goods wagon,product
+Goodyear Tire and Rubber Company,ORG
+Grade (slope),parameter
+Gray iron,material
+Great Western Railway,product
+Gyroscope,parameter
+Görlitz,type
+Hand,part
+Harald Bartol,product
+Head-end power,part
+Heat,parameter
+Heat exchanger,part
+Heat shield,part
+Heat sink,part
+Heating element,part
+Heberlein brake,type
+Helicopter rotor,part
+Hermetic seal,part
+High voltage,parameter
+High-speed rail,product
+Horsepower,parameter
+Hose,part
+Hot rod,type
+Hub gear,type
+Human body,part
+Hummer,product
+Hybrid (biology),type
+Hybrid electric vehicle,product
+Hybrid vehicle,type
+Hybrid vehicle drivetrain,type
+Hydrargyrum medium-arc iodide lamp,type
+Hydraulic accumulator,part
+Hydraulic brake,type
+Hydraulic cylinder,part
+Hydraulic cylinder,type
+Hydraulic fluid,type
+Hydraulic hybrid vehicle,type
+Hydraulic machinery,part
+Hydraulic motor,part
+Hydraulic pump,part
+Hydraulics,type
+Hydrocarbon,material
+Hydrogen,material
+Hydrogen chloride,material
+Hydropneumatic suspension,type
+Hygroscopy,part
+IXYS Corporation,ORG
+Ice,part
+Inboard brake,type
+Incandescent light bulb,part
+Inch of mercury,part
+India,GPE
+Indian Railways,product
+Indicator (distance amplifying instrument),part
+Induction motor,part
+Inertia,parameter
+Information,parameter
+Injector,part
+Inlet manifold,part
+Inlet manifold,type
+Intercity Express,product
+Intercom,type
+Internal combustion engine,type
+Internal combustion engine cooling,part
+International Organization for Standardization,ORG
+Iron,part
+Isopropyl alcohol,material
+Italian Socialist Party,part
+Jackknifing,part
+Japan,product
+Jeep CJ,type
+Jet aircraft,part
+Jet aircraft,product
+Jules Bianchi,product
+Jumper cable,part
+Kevlar,part
+Kicker (sports magazine),part
+Kill switch,part
+Kill switch,type
+Kilogram,product
+Kinetic energy,parameter
+Kinetic energy recovery system,system
+Knorr-Bremse,part
+Kunze-Knorr brake,type
+Lagoon,part
+Lanchester Motor Company,ORG
+Land Rover,product
+Landaulet (car),product
+Launch pad,parameter
+Lawsuit,product
+Lead,part
+Leather,material
+Leather,part
+Length,parameter
+Lever,part
+Lexus,product
+Lexus RX,product
+Light,part
+Light commercial vehicle,product
+Light rail,product
+Light truck,type
+Linkage (mechanical),part
+Liquid,material
+Live steam,part
+Local area network,part
+Lock (water navigation),part
+Lockheed Corporation,ORG
+Lockring,part
+Locomotive,product
+Lorentz force,parameter
+Louis Renault (industrialist),type
+Lubrication,part
+Machine,product
+Machine tool,product
+Machining,type
+Magnesium,material
+Magnesium,part
+Magnet,part
+Magnetic field,parameter
+Magnetic stripe card,part
+Magnetism,parameter
+Magnitude (astronomy),parameter
+Maintenance (technical),part
+Manifold,part
+Manifold vacuum,type
+Manual transmission,type
+Manufacturing,part
+Mass,parameter
+Master cylinder,part
+Master cylinder,type
+Maxaret,part
+Mazda,product
+Mechanical advantage,parameter
+Mechanical arm,part
+Mechanical energy,parameter
+Mechanism (engineering),part
+Mechanism of action,part
+Melting point,parameter
+Mental chronometry,parameter
+Mercedes-Benz,product
+Metal,material
+Metal,part
+Metre,part
+Military organization,ORG
+Mineral,material
+Mineral oil,material
+Mineral oil,part
+Model (person),product
+Moisture,material
+Molecule,part
+Momentum,parameter
+Moto Guzzi,product
+Motor oil,part
+Motor vehicle,product
+Motorcycle,product
+Motorized bicycle,type
+Motor–generator,part
+Mountain bike,product
+Mu (letter),parameter
+Mud,material
+Mud,part
+Muffler,part
+Multiple-unit train control,type
+Mushroom,part
+Métallurgique,type
+Narrow-gauge railway,product
+National Transportation Safety Board,part
+Natural rubber,material
+Natural rubber,part
+Necktie,product
+Nilgiri Mountain Railway,type
+Nilgiri Mountain Railway X class,type
+Nipple,part
+Noise,parameter
+Number,parameter
+Nylon,part
+Off-road vehicle,product
+Off-roading,part
+Oil,material
+Oil,part
+Oil pump (internal combustion engine),type
+Operating signals,part
+Operating temperature,parameter
+Oscilloscope,part
+Outgassing,part
+Overhead valve engine,type
+Oxide,material
+Ozone depletion,material
+PCC streetcar,product
+Pads,part
+Paper,part
+Parachute,product
+Parameter,parameter
+Parking brake,type
+Parking pawl,part
+Parking pawl,type
+Particle,material
+Passenger railroad car,type
+Patch (computing),parameter
+Pawl,part
+Penny-farthing,type
+Perception,parameter
+Perpendicular,part
+Petrol engine,type
+Phenol,material
+Phenol formaldehyde resin,material
+Phosgene,material
+Phosphor,material
+Phosphor bronze,material
+Physical property,parameter
+Pinniped,part
+Pipe (fluid conveyance),part
+Piston,part
+Piston pump,part
+Piston ring,part
+Piston rod,part
+Piston valve,type
+Piston valve (steam engine),type
+Plastic,material
+Plastic,part
+Pneumatics,part
+Pneumatics,type
+Polyurethane,material
+Poppet valve,type
+Porsche,product
+Port,part
+Portal axle,part
+Porter (carrier),part
+Potential energy,parameter
+Power (physics),parameter
+Power brakes,type
+Power cable,part
+Power steering,part
+Power supply,part
+Power tool,type
+Pressure,parameter
+Pressure regulator,part
+Pressure sensor,part
+Pressure switch,part
+Pressure vessel,part
+Pressure vessel,product
+Prime mover (locomotive),type
+Privately held company,ORG
+Propeller,part
+Proportional control,part
+Proportional control,type
+Proportioning valve,type
+Protein–protein interaction,part
+Proximity sensor,part
+Pump,part
+Punched tape,part
+RPM (magazine),parameter
+Racing bicycle,product
+Racing bicycle,type
+Radar,product
+Radiator,part
+Radio,part
+Radio wave,part
+Radius,parameter
+Radius rod,part
+Rail freight transport,product
+Rail transport,type
+Railroad car,type
+Railroad switch,part
+Railway air brake,type
+Railway brake,type
+Rambler Marlin,product
+"Ransomes, Sims & Jefferies",product
+Ratchet (device),part
+Rate of return,parameter
+Reciprocating pump,type
+Recreational vehicle,type
+Rectifier,part
+Rectifier,type
+Recumbent bicycle,type
+Recycling,part
+Redox,part
+Regeneration (biology),part
+Regenerative brake,type
+Regional rail,product
+Regulation,part
+Reinforced carbon–carbon,part
+Relative velocity,parameter
+Relief valve,type
+Renault,product
+Reservoir,part
+Resin,part
+Resistor,part
+Retarder (mechanical engineering),part
+Retarder (railroad),part
+Ride height,parameter
+Ride quality,parameter
+Rim (wheel),part
+River delta,part
+Rivet,part
+Road bicycle,type
+Road surface,part
+Robert Bosch GmbH,product
+Rocker arm,part
+Rod cell,part
+Roller coaster,product
+Roller coaster elements,part
+Rolling resistance,parameter
+Rotation,parameter
+Rotational speed,parameter
+Rotor (electric),part
+Rugby union positions,part
+Runaway train,type
+Russia,product
+Russian language,part
+Saab Automobile,product
+Safety bicycle,type
+Safety valve,type
+Sandbox (locomotive),type
+Saucer,part
+Scientific method,part
+Scooter (motorcycle),product
+Screw,part
+Seal (mechanical),part
+Self-levelling suspension,type
+Semiconductor,part
+Sensor,part
+Sensotronic Brake Control,type
+Servomechanism,part
+Set (mathematics),part
+Set screw,part
+Setpoint (control system),parameter
+Shield,part
+Shinkansen,product
+Shock absorber,part
+Shoe,part
+Shoe,product
+Short circuit,part
+Signal,part
+Signaling (telecommunications),part
+Silicon dioxide,material
+Silicone,material
+Silicone,part
+Single (music),part
+Skidder,parameter
+Slavery,type
+Slippery rail,part
+Snow,material
+Solenoid,part
+Solenoid valve,type
+Solution (chemistry),part
+Solvent,material
+Sound,parameter
+Specific performance,parameter
+Speed,parameter
+Spline (mechanical),part
+Split pin,part
+Sport bike,product
+Sport bike,type
+Sport utility vehicle,product
+Spring (device),part
+Spring (hydrology),part
+Sprocket,part
+Sprung mass,parameter
+Square wheel,part
+Stainless steel,material
+Stainless steel,part
+Star catalogue,part
+State of charge,parameter
+Statics,part
+Stator,part
+Steam,part
+Steam,type
+Steam brake,type
+Steam engine,type
+Steam locomotive,type
+Steel,material
+Steel,part
+Steep grade railway,product
+Steering wheel,parameter
+Stiffness,parameter
+Stirrup,part
+Stock,part
+Stopping power,parameter
+Stopping sight distance,parameter
+Storage tank,part
+Straight-three engine,type
+Stroke,parameter
+Stroke (engine),parameter
+Structural load,parameter
+Subaru,product
+Supercapacitor,part
+Surface area,parameter
+Surface roughness,parameter
+Surface water,type
+Suspension (chemistry),system
+Switch,part
+Symbol,part
+Synthetic fiber,material
+System,part
+TGV,type
+Tandem bicycle,product
+Tandem bicycle,type
+Tank locomotive,product
+Technology,part
+Telecine,material
+Telemetry,part
+Temperature,parameter
+Temperature coefficient,parameter
+Tension (physics),parameter
+Tetrachloroethylene,material
+Textile,material
+The Yankee,type
+Thermal conductivity,parameter
+Thermal energy,parameter
+Thermoplastic,material
+Thermosetting polymer,material
+Third World,type
+Third rail,part
+Thoracic diaphragm,part
+Three-phase electric power,part
+Throttle,part
+Throttle,type
+Tie clip,part
+Tie rod,part
+Time,parameter
+Tin,material
+Tire,part
+Titanium,material
+Toilet paper,part
+Tonne,type
+Tool,part
+Torque,parameter
+Torx,type
+Tow truck,type
+Towing,product
+Toxicity,parameter
+Toyota,product
+Toyota Previa,product
+Toyota Prius,product
+Toyota Supra,product
+Track bicycle,product
+Track bicycle,type
+Track brake,type
+Traction (engineering),parameter
+Traction control system,part
+Traction motor,part
+Tractor,product
+Traffic enforcement camera,part
+Trailer (vehicle),type
+Trailer brake controller,type
+Train,product
+Train (roller coaster),type
+Train driver,type
+Train wheel,part
+Train wheel,product
+Trains (magazine),product
+Tram,product
+Transit bus,product
+Transmission (mechanics),part
+Transmission (mechanics),product
+Transmission (mechanics),system
+Transmission (mechanics),type
+Transmission brake,type
+Transmitter,part
+Transnet Freight Rail,type
+Trap music,part
+Triangle,part
+Trichloroethane,material
+"Trim, County Meath",part
+Truck,product
+Truck classification,product
+Truck wages,part
+Trunnion,part
+Tunnel,part
+Turbocharger,type
+Two-stroke engine,type
+Unit train,type
+United Kingdom,GPE
+United States,GPE
+United States Department of Transportation,part
+United States Environmental Protection Agency,type
+Unsprung mass,parameter
+Utility bicycle,type
+Vacuum,parameter
+Vacuum brake,type
+Vacuum level,type
+Vacuum pump,type
+Vacuum servo,type
+Valencian Community motorcycle Grand Prix,product
+Valve,part
+Valve gear,type
+Van,product
+Vaporization,part
+Vehicle,product
+Vehicle Dynamics Integrated Management,product
+Vehicle frame,part
+Velocity,parameter
+Velocity,part
+Videocassette recorder,product
+Viscosity,parameter
+Viscosity index,parameter
+Volt,product
+Voltage,parameter
+Volume,parameter
+Volvo,product
+WSP Global,part
+Wagon,product
+Warranty,type
+Washout (aeronautics),part
+Waste heat,parameter
+Water,part
+Water cooling,type
+Water vapor,type
+Wear,parameter
+Weight,parameter
+Weight distribution,parameter
+Welding,part
+Westinghouse Air Brake Company,ORG
+Westinghouse Electric Corporation,ORG
+Wheat,product
+Wheel,system
+Wheel chock,part
+Wheel cylinder,type
+Wheel slide protection,type
+Wheel speed sensor,part
+Wheelchair,part
+Wheellock,parameter
+Wheelset (rail transport),part
+Wheelset (rail transport),type
+Williams Grand Prix Engineering,type
+Wind turbine,product
+Wire,part
+Wire rope,part
+Wood,material
+Wooden roller coaster,product
+Working fluid,type
+World Forum for Harmonization of Vehicle Regulations,product
+World War I,part
+Yamaha Motor Company,ORG
+Yard,part
+Yaw (rotation),parameter
+Yaw (rotation),type
+Yaw-rate sensor,part
+Yield (engineering),parameter
+Yoke,part
+Zinc,material
+Zinc,part
