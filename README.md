@@ -84,6 +84,8 @@ The extracted relationships are analyses. The analysis data to be updated here. 
 
 # Process Steps 
 
+Each and Every process steps can be indpendently Executed by ensuring the availability of input files. This enable running and validating the process steps independently depending on the Area of Interest.  
+
 1. Extraction of brake literature from the Wikipedia, cleaning up of the text, resolve coreferences and split paragarmes in the sentenses and generate a 
 dataframe
 
