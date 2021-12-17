@@ -68,6 +68,19 @@ The extracted relationships are analyses. The analysis data to be updated here. 
         5. scipy==1.4.1
         
         6. nltk>=3.6.4
+        
+# Data Folder for downloading the custom trained BERT model and Terms/Annotations Extracted with differnt Threshold values using wikifier API for "Brake" Corpus
+
+      https://drive.google.com/drive/folders/1vGy_Us0rxn_JY6xw6v4NMHX6Z1HjHXtu?usp=sharing
+             
+             Model File
+             - finalized_model.pkl
+             Entities
+             -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.6.csv
+             -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.7.csv
+             -  Capstone/data/termsdec_07_mapping_data_wiki_text_0.8.csv
+             -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.9.csv
+              - Capstone/data/termsdec_12_mapping_data_wiki_text_1.0.csv
 
 # Process Steps 
 
@@ -96,6 +109,10 @@ dataframe
                        The terms extracted with other threshold values which are used for evaluation of threshold value
 
                      -  Capstone/data/wiki_entities_baseline_threshold_terms.csv
+
+                     The following files are uploaded the Gooogle Drive -
+                       https://drive.google.com/drive/folders/1vGy_Us0rxn_JY6xw6v4NMHX6Z1HjHXtu?usp=sharing
+                     
                      -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.6.csv
                      -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.7.csv
                      -  Capstone/data/termsdec_07_mapping_data_wiki_text_0.8.csv
