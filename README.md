@@ -89,13 +89,13 @@ Each and Every process steps can be indpendently Executed by ensuring the availa
 1. Extraction of brake literature from the Wikipedia, cleaning up of the text, resolve coreferences and split paragarmes in the sentenses and generate a 
 dataframe
 
-        Scitpt - navigating_wiki_categories.ipynb 
+        Script - navigating_wiki_categories.ipynb 
         Input file – None
         Output file - Capstone/data/wiki_brake_all_pages.csv
 
 2. Resolve the coreferneces using neural coref 
 
-        Scitpt - neural_coref.ipynb         
+        Script - neural_coref.ipynb         
         Input file – Capstone/data/wiki_brake_all_pages.csv  (Output file from the process step #1)
         Output file - Capstone/data/wiki_brake_all_pages_with_coref_df.csv
 
@@ -104,7 +104,7 @@ dataframe
     c.	The normalized manually extracted terms are used as baseline and are compared aginst the terms returned by Wikifier for different thresholds. The threshold value for which the highest score is obtained is taken as an ideas threshold value to be used for the extraction of terms from the full text corpus.  
     d.	Using Ideal threshold value Extract the terms from the text (Capstone/data/wiki_brake_all_pages_with_coref_df.csv) 
 
-        Scitpt -  term_extraction_threshold_determination.ipynb          
+        Script -  term_extraction_threshold_determination.ipynb          
         Input file  – Capstone/data/wiki_brake_all_pages_with_coref_df.csv  (Output file from the process step #2)
                     - Capstone/data/wiki_entities_baseline.csv - (Random Sampled sentenses with manual extracted terms)
                     
@@ -120,10 +120,10 @@ dataframe
                      -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.9.csv
                       - Capstone/data/termsdec_12_mapping_data_wiki_text_1.0.csv
 
-4.  a. Training Data – The relationships extracted withopenNRE models are not giving meaningful relationships though they establish just the the relationships. So the model is trained with entity relationship types annotated mannually based on our domain expertize. From the entities extracted paired up(Permutational combinations of entities(terms) for link prediction), the random sample of 10K lines (in the format the BERT Entity prediction modeler can understand) are extracted and are manually mapped with the relationships
-    b. The traned Model is used for predicting the relatioship for the entity pairs generated in the process steps #3   	
+4.  a. Training Data – The relationships extracted with openNRE models are not giving meaningful relationships though they establish just the relationships. So the model is trained with entity relationship types annotated manually based on our domain expertise. From the entities extracted are paired up(Permutational combinations of entities(terms) for link prediction), the random sample of 10K lines (in the format the BERT Entity prediction modeler can understand) are extracted and are manually mapped with the relationships
+    b. The trained Model is used for predicting the relationship for the entity pairs generated in the process steps #3
 
-        Scitpt -  term_extraction_threshold_determination.ipynb          
+        Script -  term_extraction_threshold_determination.ipynb          
         Input file – /Capstone/data/train_data/wiki_model_input_trial_10K.csv - For training the model - Mannually annotated random sample
                    - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv (Output from the process step #3) - Input for the trainined model for link prediction
         Output file - 
@@ -132,7 +132,7 @@ dataframe
                     
 4. Network Generation
 
-        Scitpt -  term_extraction_threshold_determination.ipynb          
+        Script -  term_extraction_threshold_determination.ipynb          
         Input file – Capstone/data/wiki_brake_all_pages_with_coref_df.csv
         Output file - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv
         
