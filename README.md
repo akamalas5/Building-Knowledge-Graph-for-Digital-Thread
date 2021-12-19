@@ -147,14 +147,8 @@ dataframe
         Input file –  
         Output file -  
 
-7. interactive_plot.ipynb
+7. Graph Visualizations.ipynb
 
-        Script -     interactive_plot.ipynb 
+        Script -     Graph Visualizations.ipynb
         Input file –  
         Output file -  
-        
-5. 9000 entity pairs with 90% of relationship scores from full term pairs
-6. Entity Type (for classification/ontology purpose) – Manual annotation for ~1000 entities from above pairs entity_vocab.csv
-7. Data integration – Sanitized program Bill of Material
-8. Integration – Note book – Input file relation type predicted, bom file.   Output – The file establishing link through CPSC – CSV file
-9. Network 
