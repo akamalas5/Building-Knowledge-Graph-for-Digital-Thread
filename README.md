@@ -105,17 +105,14 @@ dataframe
     d.	Using Ideal threshold value Extract the terms from the text (Capstone/data/wiki_brake_all_pages_with_coref_df.csv) 
 
         Scitpt -  term_extraction_threshold_determination.ipynb          
-        Input file – Capstone/data/wiki_brake_all_pages_with_coref_df.csv  (Output file from the process step #2)
-                    - Capstone/data/wiki_entities_baseline.csv
-                    - wiki_entities_baseline_threshold_terms.csv
-        Output file - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv  (The file containing the terms)
+        Input file  – Capstone/data/wiki_brake_all_pages_with_coref_df.csv  (Output file from the process step #2)
+                    - Capstone/data/wiki_entities_baseline.csv - (Random Sampled sentenses with manual extracted terms)
+                    
+        Output files  - wiki_entities_baseline_threshold_terms.csv - (The file containing random sampled sentenses with terms extracted for different threshold values)
+                      - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv  (The file containing the terms extracted for all sentenses with the ideal threshold value of 0.8 based precision scores)
                        
-                       The terms extracted with other threshold values which are used for evaluation of threshold value
-
-                     -  Capstone/data/wiki_entities_baseline_threshold_terms.csv
-
-                     The following files are uploaded the Gooogle Drive -
-                       https://drive.google.com/drive/folders/1vGy_Us0rxn_JY6xw6v4NMHX6Z1HjHXtu?usp=sharing
+                    - The following files have the full details of terms and it's position details in teh input sentenses. These files are uploaded the Gooogle Drive for reference (Due to size limiation not uploaded to git. Also these not required as the terms separeated and teakne up for preicions calcuation are avilable in the file wiki_entities_baseline_threshold_terms.csv)
+                      - https://drive.google.com/drive/folders/1vGy_Us0rxn_JY6xw6v4NMHX6Z1HjHXtu?usp=sharing
                      
                      -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.6.csv
                      -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.7.csv
@@ -123,17 +120,16 @@ dataframe
                      -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.9.csv
                       - Capstone/data/termsdec_12_mapping_data_wiki_text_1.0.csv
 
-4.  a. Training Data – From the entities extracted with paired up, terms, get the random sample of 10K files are extracted and are manually mapped with the relationships.  The relationships extracted with wikifier trained openNRE model relations ships are not giving meaningful relationships thought they establish the relationships.
-    b. The traned Model is used for predicting the relatioship for the term pairs generated in the above steop   	
+4.  a. Training Data – The relationships extracted withopenNRE models are not giving meaningful relationships though they establish just the the relationships. So the model is trained with entity relationship types annotated mannually based on our domain expertize. From the entities extracted paired up(Permutational combinations of entities(terms) for link prediction), the random sample of 10K lines (in the format the BERT Entity prediction modeler can understand) are extracted and are manually mapped with the relationships
+    b. The traned Model is used for predicting the relatioship for the entity pairs generated in the process steps #3   	
 
         Scitpt -  term_extraction_threshold_determination.ipynb          
-        Input file – /Capstone/data/train_data/wiki_model_input_trial_10K.csv - For training the model
-                   - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv - Input the trained for prediction of relationships
+        Input file – /Capstone/data/train_data/wiki_model_input_trial_10K.csv - For training the model - Mannually annotated random sample
+                   - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv (Output from the process step #3) - Input for the trainined model for link prediction
         Output file - 
-                a. /Capstone/data/finalized_model.pkl
-                b. /Capstone/data/with_train_test_mapping_data_req_text_0.8_results.csv
-                
-                
+                a. /Capstone/data/finalized_model.pkl  (Can be downloaded from https://drive.google.com/drive/folders/1vGy_Us0rxn_JY6xw6v4NMHX6Z1HjHXtu?usp=sharing)
+                b. /Capstone/data/with_train_test_mapping_data_req_text_0.8_results.csv 
+                    
 4. Network Generation
 
         Scitpt -  term_extraction_threshold_determination.ipynb          
