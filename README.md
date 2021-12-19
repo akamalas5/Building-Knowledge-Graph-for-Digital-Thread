@@ -130,11 +130,17 @@ dataframe
                 a. /Capstone/data/finalized_model.pkl  (Can be downloaded from https://drive.google.com/drive/folders/1vGy_Us0rxn_JY6xw6v4NMHX6Z1HjHXtu?usp=sharing)
                 b. /Capstone/data/with_train_test_mapping_data_req_text_0.8_results.csv 
                     
-4. Network Generation
+4. Data Integration.ipynb
 
-        Script -  term_extraction_threshold_determination.ipynb          
-        Input file – Capstone/data/wiki_brake_all_pages_with_coref_df.csv
-        Output file - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv
+        Script -      
+        Input file –  
+        Output file -  
+        
+ 5. Data Integration.ipynb
+
+        Script -      
+        Input file –  
+        Output file -  
         
 5. 9000 entity pairs with 90% of relationship scores from full term pairs
 6. Entity Type (for classification/ontology purpose) – Manual annotation for ~1000 entities from above pairs entity_vocab.csv
