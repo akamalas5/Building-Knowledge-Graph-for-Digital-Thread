@@ -82,9 +82,9 @@ The extracted relationships are analyses. The analysis data to be updated here. 
              -  Capstone/data/termsdec_12_mapping_data_wiki_text_0.9.csv
               - Capstone/data/termsdec_12_mapping_data_wiki_text_1.0.csv
 
-# Process Steps 
+# Process Steps - 
 
-Each and Every process steps can be indpendently Executed by ensuring the availability of input files. This enable running and validating the process steps independently depending on the Area of Interest.  
+Each and Every process steps can be indpendently Executed by ensuring the availability of input files in the data directory. This enables running and validating the process steps independently depending on the Area of Interest.   
 
 1. Extraction of brake literature from the Wikipedia, cleaning up of the text, resolve coreferences and split paragarmes in the sentenses and generate a 
 dataframe
@@ -93,20 +93,22 @@ dataframe
         Input file – None
         Output file - Capstone/data/wiki_brake_all_pages.csv
 
-2. Resoolve the coreferneces using neural coref 
+2. Resolve the coreferneces using neural coref 
 
         Scitpt - neural_coref.ipynb         
-        Input file – Capstone/data/wiki_brake_all_pages.csv
-        Output file - Capstone/data/ wiki_brake_all_pages_with_coref_df.csv
+        Input file – Capstone/data/wiki_brake_all_pages.csv  (Output file from the process step #1)
+        Output file - Capstone/data/wiki_brake_all_pages_with_coref_df.csv
 
-3.  a.	Manual extraction of terms, normalization and computatioin of the precision
-    b.	Determine the ideal threshold for annotation and terms extraction 
-    c.	Using Ideal threshold value extract the terms	.	
+3.  a. Sample(100 text cells) from coref resolved texts of the fiel wiki_brake_all_pages_with_coref_df.csv).  Using Wikifier API extract terms with mutlple threshold values (0.6, 0.7. 0.8,0.9 and 1.0). The number of terms that are getting extractd is proposional to the threshold value.
+    b.	For sample texts also the terms are extracated manually using our subject knowledge expertise and normalized.  
+    c.	The normalized manually extracted terms are used as baseline and are compared aginst the terms returned by Wikifier for different thresholds. The threshold value for which the highest score is obtained is taken as an ideas threshold value to be used for the extraction of terms from the full text corpus.  
+    d.	Using Ideal threshold value Extract the terms from the text (Capstone/data/wiki_brake_all_pages_with_coref_df.csv) 
 
         Scitpt -  term_extraction_threshold_determination.ipynb          
-        Input file – Capstone/data/wiki_brake_all_pages_with_coref_df.csv
+        Input file – Capstone/data/wiki_brake_all_pages_with_coref_df.csv  (Output file from the process step #2)
                     - Capstone/data/wiki_entities_baseline.csv
-        Output file - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv
+                    - wiki_entities_baseline_threshold_terms.csv
+        Output file - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv  (The file containing the terms)
                        
                        The terms extracted with other threshold values which are used for evaluation of threshold value
 
