@@ -123,7 +123,7 @@ dataframe
 4.  a. Training Data – The relationships extracted with openNRE models are not giving meaningful relationships though they establish just the relationships. So the model is trained with entity relationship types annotated manually based on our domain expertise. From the entities extracted are paired up(Permutational combinations of entities(terms) for link prediction), the random sample of 10K lines (in the format the BERT Entity prediction modeler can understand) are extracted and are manually mapped with the relationships
     b. The trained Model is used for predicting the relationship for the entity pairs generated in the process steps #3
 
-        Script -  term_extraction_threshold_determination.ipynb          
+        Script - train_model.ipynb      
         Input file – /Capstone/data/train_data/wiki_model_input_trial_10K.csv - For training the model - Mannually annotated random sample
                    - /Capstone/data/dec_07_mapping_data_wiki_text_0.8.csv (Output from the process step #3) - Input for the trainined model for link prediction
         Output file - 
