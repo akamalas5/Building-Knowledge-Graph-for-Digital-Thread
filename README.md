@@ -137,13 +137,19 @@ dataframe
                     
 4. Data Integration.ipynb
 
-        Script -      
+        Script -   Data Integration.ipynb   
         Input file –  
         Output file -  
         
- 5. Data Integration.ipynb
+6. interactive_plot.ipynb
 
-        Script -      
+        Script -     interactive_plot.ipynb 
+        Input file –  
+        Output file -  
+
+7. interactive_plot.ipynb
+
+        Script -     interactive_plot.ipynb 
         Input file –  
         Output file -  
         
