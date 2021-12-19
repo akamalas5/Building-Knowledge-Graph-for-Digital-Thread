@@ -1,4 +1,4 @@
-# Knowledge Graph - Connectig the dots and Establishing digital thread between Product life cycle Phases
+# Knowledge Graph - Connecting the dots to establish the Digital Thread across Product Life Cycle Phases
 
  The knowledge base associated with each of the life cycles of the product data as it evolves from concepts to final product in use (functional/compliance requirements,  digital design, digital simulation, manufacturing and in use/service) needs to be seamlessly connected digitally so that data remains as single source of truth and are consumed by downstream/upstream phases in context without duplicating or distorting. However this is not the case because the  manufacturing companies have legacy of many years and have  adopted to newer systems specific to domains as per the business requirements. The typical product life cycle includes market research, concepts creation, product attributes/configurations, product specification to satisfy functional and regulatory/compliance requirements, product design engineering methodologies, Manufacturing, Product warranty support and product in service. The data associated with these are huge, diverse and fast growing and have all the characteristics of big data and associated  challenges in processing and generating insights.
 Given the diversity of the People/process/data elements, the data remains in silos with fragile connectivity across the phases which adds complexity, results in re-work, data duplications, mis representations. These issues can be addressed if the data is harmonized across the product life cycle to enable taxonomy for product data with ontology to identify concepts and their relationships.  Such a representation will aid in establishing the digital connection between the data sources across the life cycle of product with traceability and connections. 
@@ -7,11 +7,12 @@ This work deals with the building of knowledge graph from the data across the pr
 
 # Model Requirements and Installation
 
+This section provide the dteails of libraries needed to run the code.  
+
 1. Coreference resolution-- Neuralcoref
 
-The hugging face neural coreference resolution model is used of resolving the coreference. This model takes work embeddings for several words inside and around each mention and features of the mentions like length, location of the mentions which results in a features representation of each mention and its surrounding.  This is passed on to the set of neural net to obtain score of each pair of mention and possible antecedent. The second neural net gives a score of a mention having no antecedent (possibly the reference to an entity in a text). The model then compares all these scores together and the highest scores to determine where a mention has an antecedent and which one should be.
-The text data is divided into sentences and sentences are processed for the resolution of coreferences. This is helpful to extract the information specific to each of the sentences.
- 
+The hugging face neural coreference resolution model is used of resolving the coreferences of mentions. This model takes the word embeddings for several words inside and around each mention and features of the mentions (length, location of the mentions ) which results features representation of each mention and its surrounding.  This is passed on to the set of neural nets to obtain score  for each pair of mention and possible antecedent. The first neural lay gives score with antecedents and the  second neural net gives  score of a mention having no antecedent (possibly the reference to an entity in a text). The model then compares all these scores together and the highest scores to determine where a mention has an antecedent and which one should be. The Hugginface neuralcoref is used for this study.
+
    https://github.com/huggingface/neuralcoref
    
    https://spacy.io/universe/project/neuralcoref
@@ -26,7 +27,7 @@ The text data is divided into sentences and sentences are processed for the reso
         
         4. neuralcoref
 
-For the coreference resolution our model uses neuralcoref which works only with python3.7.
+Limiration: The coreference resolution our model (neuralcoref) which works only with python3.7. So used python3.7 and the compatible Spacy (2.1.0) for this. Giving below the setup setps for running the neuralcoref moudle. The soruce code ( neural_coref.ipynb) as well provides the details of setup. For the details and  latest dependecies please refer to the  source https://spacy.io/universe/project/neuralcoref
         
         1. !apt-get install python3.7
         
@@ -36,24 +37,28 @@ For the coreference resolution our model uses neuralcoref which works only with 
         
         4. !pip install https://github.com/explosion/spacy-models/releases//download/en_core_web_lg-2.1.0/en_core_web_lg-2.1.0.tar.gz
 
-2. Term Extraction 
+2. Named Entities (Terms) Extraction 
 
-The coreference resolved documents are processed for the named entity recognition and extraction of entities.  The document annotation is the NLP technique for recognizing the parts of speech, or part of text into machine readable / Processable elements.  Our data source is coming from Wikipedia so we used wikifier API’s to annotate the entities.
- 
+The coreferences resolved text documents are processed for named entity recognition and extraction.  There are multiple NLP libraries available which annotates the text documents recognizing the parts of speech, or part of text into machine readable elements.  Our text data source is coming from Wikipedia articles so we used wikifier API’s to annotate the entities.
+  
+  For Extracting annotations interactively:
   http://wikifier.org/
   
+  Wikifier API documentation:
   http://wikifier.org/info.html
         
 
 3. OpenNRE model for Entity link prediction
 
- Entity Relationship Extraction - Relationship Labeling for Training the pre-trained OpenNRE BERT Model
+Entity Relationship Extraction - Relationship Labeling for Training the pre-trained OpenNRE BERT Model
 For the term pairs extracted, the relationships are extracted using the following OpenNRE models which are trained using the Wikipedia corpus
 wiki80_bert_softmax
 wiki80_bertentity_softmax
-The extracted relationships are analyses. The analysis data to be updated here. - Number of terms for each of the threshold value, number of terms considered logic
 
- https://github.com/thunlp/OpenNRE
+The extracted relationships are analysed and foudn to be too generic. So we took 1000 term pari combinations and annotated with relationship lable using our SME knoweldge in the automotive domain. Using the labelled relationship we created traing data for 70K term paris and used for training the BERT model with entity concatenation
+
+Please refer the openNRE documentation for the details:
+https://github.com/thunlp/OpenNRE
 
  Requirements.txt For openNRE
 
