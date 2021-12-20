@@ -138,17 +138,17 @@ dataframe
 4. Data Integration.ipynb
 
         Script -   Data Integration.ipynb   
-        Input file –  
-        Output file -  
+        Input file –  /capstone/data/bom_sample_brakes.csv
+        Output file -  /capstone/data/wiki_bom.csv
         
 6. interactive_plot.ipynb
 
         Script -     interactive_plot.ipynb 
-        Input file –  
-        Output file -  
+        Input file –  /capstone/data/model_predictions_wiki_text_0.8_results.csv
+        Output file -  NIL
 
 7. Graph Visualizations.ipynb
 
         Script -     Graph Visualizations.ipynb
-        Input file –  
-        Output file -  
+        Input file –  /capstone/data/model_predictions_wiki_text_0.8_results.csv
+        Output file -  /capstone/data/wiki_high_score_rels.csv
